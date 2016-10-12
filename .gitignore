@@ -26,12 +26,10 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 /commands/
-/assets/
 /mail/
 /runtime/
 /tests/
 !/vendor/
 /LICENSE.md
-/README.md
 /yii
 /yii.bat
