@@ -4,7 +4,6 @@ $params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'basic',
-    'name' => 'test-task_sportmenu',
     'language' => 'ru-RU',
     'basePath' => dirname(__DIR__),
     'homeUrl' => '/',
@@ -48,8 +47,7 @@ $config = [
                 ]                
             ],
         ],  
-        'session' => [
-            'savePath' => 'C:/xampp/htdocs/fitbartv/runtime/session'
+        'session' => [            
         ],
     ],
     'params' => $params,
